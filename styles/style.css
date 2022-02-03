@@ -1,0 +1,22 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body.day
+{
+font-family: DM Sans, sans-serif;
+background-color: #F1F6FD;
+color: #0A1825;
+}
+body.night
+{
+font-family: DM Sans, sans-serif;
+background-color: #0A1825;
+color: #F1F6FD;
+}
+path, svg, button
+{
+cursor: pointer;
+}

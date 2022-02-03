@@ -1,0 +1,108 @@
+#main.day
+{
+position: relative;
+top: 30vh;
+left: 15vw;
+width: 60vw;
+height: 65vh;
+background-color: white;
+border-radius: 25px;
+box-shadow: 0vw 1vh 15px rgb(0 0 0 / 60%);
+}
+#main.night
+{
+position: relative;
+top: 30vh;
+left: 15vw;
+width: 60vw;
+height: 65vh;
+background-color: #092933;
+border-radius: 25px;
+box-shadow: 0vw 1vh 15px rgb(0 0 0 / 60%);
+}
+
+.tittle
+{
+position: relative;
+font-size: 40px;
+padding: 2vh 2vw;
+height: 10vh;
+width: 100%;
+text-align: center;
+}
+.qa
+{
+position: relative;
+float: left;
+height: 50vh;
+width: calc(100%/3);
+}
+.aqa
+{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 80%;
+width: 100%;
+}
+	.aqa img
+	{
+	position: relative;
+	height: 80%;
+	}
+.pqa
+{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+top: 80%;
+text-align: center;
+font-size: 30px;
+height: 20%;
+}
+
+@media screen and (max-width: 900px)
+{
+	#main.day, #main.night
+	{
+	position: relative;
+	left: inherit;
+	left: 5%;
+	top: 30vh;
+	width: 90%;
+	height: 180vh;
+	}
+	.qa
+	{
+	position: relative;
+	float: left;
+	height: calc(90%/3);
+	width: 100%;
+	}
+}
+@media screen and (max-width: 500px)
+{
+	.tittle
+	{
+	position: relative;
+	font-size: 30px;
+	height: auto;;
+	}
+}
+@media screen and (max-width: 300px)
+{
+	.tittle
+	{
+	position: relative;
+	font-size: 30px;
+	height: auto;;
+	}
+	.aqa img
+	{
+	position: relative;
+	height: auto;
+	width: 80%;
+	}
+}

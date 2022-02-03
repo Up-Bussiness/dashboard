@@ -1,0 +1,39 @@
+  #greeting
+  {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 15vh;
+  right: 0;
+  height: 10vh;
+  width: 85vw;
+  overflow: hidden;
+  }
+  #col-1
+  {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.1vw;
+  }
+@media screen and (max-width: 900px)
+{
+    #greeting
+    {
+    width: 100vw;
+    height: auto;
+    }
+    #col-1
+    {
+    font-size: 30px;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    #col-1
+    {
+    font-size: 25px;
+    }
+}

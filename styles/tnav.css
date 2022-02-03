@@ -1,0 +1,157 @@
+#tnav
+{
+position: absolute;
+display: flex;
+align-items: center;
+top: 0;
+right: 0;
+height: 15vh;
+width: 85vw;
+}
+.slideshow-container
+{
+position: relative;
+display: flex;
+align-items: center;
+width: 60%;
+height: 100%;
+float: left;
+}
+.mySlides
+{
+position: relative;
+height: 7.5vh;
+width: 100%;
+}
+.mySlides img
+{
+position: absolute;
+top: 50%;
+transform: translate(0, -50%);
+right: 12px;
+height: 85%;
+}
+/*************************************Light*************************************/
+	/*Form and Input*/
+		#form1.day, #form2.day, #form3.day, #form4.day
+		{
+		position: relative;
+		height: 100%;
+		width: 100%;
+		border-radius: 20px;
+		padding-right: 12px;
+		overflow: hidden;
+		background-color: white;
+		box-shadow: 0 2px 6px 0 rgba(136,148,171,.2);
+		}
+		#input1.day, #input2.day, #input3.day, #input4.day
+		{
+		font-family: 'DM Sans', sans-serif;
+		cursor: text;
+		border: none;
+		outline: none;
+		height: 100%;
+		width: 100%;
+		padding: 0 20px;
+		font-size: 16px;
+		color: black;
+		background-color: white;
+		z-index: 1;
+		}
+/*************************************Night*************************************/
+	/*Form and Input*/
+		#form1.night, #form2.night, #form3.night, #form4.night
+		{
+		position: relative;
+		height: 100%;
+		width: 100%;
+		border-radius: 20px;
+		padding-right: 12px;
+		overflow: hidden;
+		background-color: #092933;
+		box-shadow: 0 2px 6px 0 rgba(136,148,171,.2);
+		}
+		#input1.night, #input2.night, #input3.night, #input4.night
+		{
+		font-family: 'DM Sans', sans-serif;
+		cursor: text;
+		border: none;
+		outline: none;
+		height: 100%;
+		width: 100%;
+		padding: 0 20px;
+		font-size: 16px;
+		color: white;
+		background-color: #182935;
+		z-index: 1;
+		}
+	/*Prev nad Next Button*/
+		#prev, #next
+		{
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		fill: black;
+		height: 100%;
+		width: calc(20%/3);
+		float: left;
+		}
+	/*Music Button*/
+		#music
+		{
+		position: relative;
+		height: 100%;
+		width: calc(20%/3);
+		float: left;
+		border: none;
+		background-color: transparent;
+		}
+			#music svg
+			{
+			position: relative;
+			width: 100%;
+			height: 100%;
+			}
+	/*Clock*/
+		#MyClockDisplay
+		{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		width: 20%;
+		font-size: 2.5vw;
+		font-family: 'DM Sans', sans-serif;
+		letter-spacing: .1vw;
+		float: left;
+		}
+		#next.day, #prev.day, #music.day
+		{
+		height: 50%;
+		fill: #0A1825;
+		}
+		#next.night, #prev.night, #music.night
+		{
+		height: 50%;
+		fill: #F1F6FD;
+		}
+
+
+@media screen and (max-width: 900px)
+{
+	#tnav
+	{
+	width: 100vw;
+	}
+		#prev.day, #next.day, #music.day, #prev.night, #next.night, #music.night
+		{
+		width: calc(40%/3);
+		overflow: hidden;
+		}
+		#MyClockDisplay
+		{
+		display: none;
+		}
+}

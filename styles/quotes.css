@@ -1,0 +1,88 @@
+#right.day::-webkit-scrollbar, #right.night::-webkit-scrollbar
+{
+display: none;
+}
+
+/*************************************Light*************************************/
+	#right.day
+	{
+	position: absolute;
+	top: 30vh;
+	right: 2vw;
+	width: 20vw;
+	height: 65vh;
+	border-radius: 25px;
+	overflow: auto;
+	padding: 2vh 1.5vw;
+	z-index: 3;
+	background-color: white;
+	box-shadow: 0vw 1vh 15px rgb(0 0 0 / 60%);
+	}
+	#quote-text.day
+	{
+	color: black;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 30px;
+	}
+	#quote-author.day
+	{
+	font-family: 'DM Sans', sans-serif;
+	font-size: 20px;
+	color: black;
+	float: right;
+	padding: 1.5vh 0 1.5vh 0;
+	}
+/*************************************Dark*************************************/
+	#right.night
+	{
+	position: absolute;
+	top: 30vh;
+	right: 2vw;
+	width: 20vw;
+	height: 65vh;
+	border-radius: 25px;
+	overflow: auto;
+	padding: 2vh 1.5vw;
+	z-index: 3;
+	background-color: #122934;
+	box-shadow: 0vw 1vh 15px rgb(0 0 0 / 60%);
+	}
+	#quote-text.night
+	{
+	color: white;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 30px;
+	}
+	#quote-author.night
+	{
+	font-family: 'DM Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	float: right;
+	padding: 1.5vh 0 1.5vh 0;
+	}
+@media screen and (max-width: 900px)
+{
+	#right.day, #right.night
+	{
+	position: relative;
+	display: flex;
+	left: inherit;
+	left: 5%;
+	top: 40vh;
+	width: 90%;
+	height: 80vh;
+	margin: 0 0 60vh 0;
+	padding: 3vh 3vw;
+	}
+	#quote-author.night, #quote-author.day
+	{
+	position: absolute;
+	bottom: 1vh;
+	right: 3vw;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 20px;
+	float: right;
+	padding: 1.5vh 0 1.5vh 0;
+	}
+}

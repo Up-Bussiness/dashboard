@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!---Meta--->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="descricipción">
+    <meta name="robots" content="noindex">
+    <meta name="robots" content="nofollow">
+    <meta name="keywords" content="Este es tu dashboard :D">
+  <!--CSS Documents-->
+    <link rel="stylesheet" type="text/css" href="../../styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/lnav.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/tnav.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/music.css">
+    <link rel="stylesheet" type="text/css" href="styles/calendar.css">
+  <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+  <!---Page Icon--->
+    <link rel="shortcut icon" href="../../multimedia/logo.png">
+  <!---Page Tittle--->
+    <title> Calendar </title>
+</head>
+<body>
+  <!-------------------------------------Left Nav------------------------------------->
+    <nav id="lnav">
+      <h1>Calendar</h1>
+      <a href="../../index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="licon1">
+          <path d="M33.436 1.481a2 2 0 0 0-2.872 0L0 33c-.178.172.752 1 1 1h7v29a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V46a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v17a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V34h7c.248 0 1.178-.828 1-1z"></path>
+        </svg>
+      </a>
+      <a href="../../pages/tool/index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="licon2">
+          <path d="M63.946 11.455l-7.438 4.7a1.391 1.391 0 0 1-1.634-.107l-3.067-2.556a1.391 1.391 0 0 1-.447-.687L50.386 9.4a1.391 1.391 0 0 1 .646-1.59l8.5-4.867a12.52 12.52 0 0 0-20.479 11.119 4.278 4.278 0 0 1-1.174 3.587L17.647 37.881a4.245 4.245 0 0 1-3.562 1.175 12.311 12.311 0 0 0-1.564-.1A12.436 12.436 0 0 0 .157 53.365L8.6 48.027a1.391 1.391 0 0 1 1.634.107l3.067 2.556a1.391 1.391 0 0 1 .447.687l.974 3.409a1.391 1.391 0 0 1-.646 1.59l-9 5.155a12.449 12.449 0 0 0 8.246 2.444 12.516 12.516 0 0 0 11.611-14.151 4.208 4.208 0 0 1 1.15-3.56L46.243 26.1a4.229 4.229 0 0 1 3.572-1.172A12.52 12.52 0 0 0 64 12.522c0-.36-.024-.715-.054-1.067z"></path>
+          <path d="M53.34 39.094a12.574 12.574 0 0 0-3.517-.028 4.208 4.208 0 0 1-3.56-1.15l-4.5-4.5-8.41 8.41 4.529 4.529a4.245 4.245 0 0 1 1.175 3.562 12.315 12.315 0 0 0-.1 1.564 12.435 12.435 0 0 0 14.408 12.362L48.027 55.4a1.391 1.391 0 0 1 .107-1.634l2.556-3.067a1.391 1.391 0 0 1 .687-.447l3.409-.974a1.391 1.391 0 0 1 1.59.646l5.155 9a12.449 12.449 0 0 0 2.444-8.246A12.591 12.591 0 0 0 53.34 39.094zM26.1 17.757a4.229 4.229 0 0 1-1.172-3.572A12.52 12.52 0 0 0 12.522 0c-.36 0-.714.024-1.067.054l4.7 7.438a1.391 1.391 0 0 1-.107 1.634l-2.556 3.067a1.391 1.391 0 0 1-.687.447l-3.405.974a1.391 1.391 0 0 1-1.59-.646l-4.867-8.5a12.512 12.512 0 0 0 6.823 20.265 12.366 12.366 0 0 0 4.3.214 4.279 4.279 0 0 1 3.587 1.174l4.465 4.465 8.41-8.41z"></path>
+        </svg>
+      </a>
+      <a href="../../pages/calendar/index.html">
+        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="licon3" class="active">
+          <path d="M46 26a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8 20H44V34a2 2 0 0 1 4 0v8h6a2 2 0 0 1 0 4z"></path>
+          <path d="M26 42a19.977 19.977 0 0 1 28-18.318V20H2v30h25.682A19.887 19.887 0 0 1 26 42z"></path>
+          <path d="M2 6v10h52V6zm6 7a2 2 0 1 1 2-2 2 2 0 0 1-2 2zm6 0a2 2 0 1 1 2-2 2 2 0 0 1-2 2zm6 0a2 2 0 1 1 2-2 2 2 0 0 1-2 2z"></path>
+        </svg>
+      </a>
+      <a href="../../pages/games/index.html">
+        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="licon4">
+          <circle r="5" cy="37" cx="21"></circle>
+          <circle r="5" cy="37" cx="43"></circle>
+          <path d="M57.834 22a11.977 11.977 0 0 0-11.178-9.94l-.344-.06H18A12 12 0 0 0 6.166 22L2.15 43.555a7 7 0 0 0 12.656 5.355l2.633-3.646A8.993 8.993 0 0 1 16 29.522V26h-4v-4h4v-4h4v4h4v4h-4v2.06a8.85 8.85 0 0 1 1-.06 8.986 8.986 0 0 1 7.555 13.873h6.889a9 9 0 1 1 11.117 3.39l2.633 3.646A7 7 0 0 0 62 45c0-2-4.166-23-4.166-23zM39 26a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm10 0a3 3 0 1 1 3-3 3 3 0 0 1-3 3z"></path>
+        </svg>
+      </a>
+      <a href="../../pages/anuncios/index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="licon5">
+          <path d="M62 6a2 2 0 0 0-2 2v2.6L4 27.4V26a2 2 0 1 0-4 0v12a2 2 0 1 0 4 0v-1.4l17 5.1V45a11 11 0 0 0 21.5 3.2L60 53.4V56a2 2 0 1 0 4 0V8a2 2 0 0 0-2-2zM32 52a7 7 0 0 1-7-7v-2.1L38.7 47a7 7 0 0 1-6.7 5z"></path>
+        </svg>
+      </a>
+    </nav>
+  <!-------------------------------------Top Nav------------------------------------->
+    <div id="tnav">
+      <!--------------------------------Search Engines-------------------------------->
+        <div class="slideshow-container">
+          <div class="mySlides">
+            <form id="form1" action="https://www.facebook.com/groups/search/groups_home/?q=" target="_blank">
+              <input id="input1" type="search" name="query" placeholder="Busca grupos en facebook" autocomplete="off" autocorrect="off" autocapitalize="off">
+              <a href="https://www.facebook.com" target="_blank">
+              <img src="../../multimedia/facebook.png">
+              </a>
+            </form>
+          </div>
+          <div class="mySlides">
+            <form id="form2" action="https://www.google.com.pe/search" method="GET" role="search" target="_blank">
+              <input id="input2" name="q" type="text" placeholder="Me siento con suerte" autocomplete="on">
+              <input name="authuser" value="isch" type="hidden">
+              <a href="https://www.google.com" target="_blank">
+              <img src="../../multimedia/google.png">
+              </a>
+            </form>
+          </div>
+          <div class="mySlides">
+            <form id="form3" action="https://www.google.com.pe/search" method="GET" role="search" target="_blank">
+              <input id="input3" name="q" type="text" placeholder="Busca imagenes" autocomplete="on">
+              <input name="tbm" value="isch" type="hidden">
+              <a href="https://www.google.com.pe/imghp" target="_blank">
+              <img src="../../multimedia/googleimg.png">
+              </a>
+            </form>
+          </div>
+          <div class="mySlides">
+            <form id="form4" action="https://www.youtube.com/results" target="_blank">
+              <input id="input4" autocomplete="on" name="search_query" type="text" placeholder="Busca videos">
+              <a href="https://www.youtube.com" target="_blank">
+              <img src="../../multimedia/youtube.png">
+              </a>
+            </form>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="prev" onclick="plusSlides(-1)">
+          <path d="M36 10a25.67 25.67 0 0 0-25.445 20.538l-3.129-4.303-4.852 3.53 9.764 13.425 13.427-9.764-3.53-4.852-5.985 4.353A19.736 19.736 0 0 1 36 16a19.787 19.787 0 0 1 20 20 20.847 20.847 0 0 1-5.971 14.66l4.245 4.24A26.886 26.886 0 0 0 62 36a25.724 25.724 0 0 0-26-26z"></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="next" onclick="plusSlides(1)">
+          <path d="M28.574 10a25.67 25.67 0 0 1 25.445 20.538l3.128-4.303L62 29.765 52.235 43.19 38.81 33.426l3.53-4.852 5.985 4.353A19.736 19.736 0 0 0 28.574 16a19.787 19.787 0 0 0-20 20 20.847 20.847 0 0 0 5.97 14.66L10.3 54.9A26.886 26.886 0 0 1 2.574 36a25.724 25.724 0 0 1 26-26z"></path>
+        </svg>
+      <!------------------------------------Music------------------------------------>
+        <button onclick="myFunction()" id="music">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+          <path d="M23 8.8v35.5h-6a10 10 0 1 0 10 10V22l26-7v21.3h-6a10 10 0 1 0 10 10V-.3z"></path>
+        </svg>
+        </button>
+        <!--Music-Player-->
+            <div id="musicplayer" class="music-content">
+              <div class="player__top">
+                      <div class="player-cover">
+                        <transition-group :name="transitionName">
+                            <div class="player-cover__item" v-if="$index === currentTrackIndex" :style="{ backgroundImage: `url(${track.cover})` }"  v-for="(track, $index) in tracks" :key="$index"></div>
+                        </transition-group>
+                      </div>
+
+                      <div class="player-controls">
+                        <div class="player-controls__item" @click="prevTrack">
+                          <svg class="icon">
+                            <use xlink:href="#icon-prev"></use>
+                          </svg>
+                        </div>
+                        <div class="player-controls__item" @click="nextTrack">
+                          <svg class="icon">
+                            <use xlink:href="#icon-next"></use>
+                          </svg>
+                        </div>
+                        <div class="player-controls__item -xl js-play" @click="play">
+                          <svg class="icon">
+                            <use xlink:href="#icon-pause" v-if="isTimerPlaying"></use>
+                            <use xlink:href="#icon-play" v-else></use>
+                          </svg>
+                        </div>
+                      </div>
+              </div>
+
+              <div class="progress" ref="progress">
+                      <div class="progress__top">
+                        <div class="album-info" v-if="currentTrack">
+                          <div class="album-info__name">{{ currentTrack.artist }}</div>
+                          <div class="album-info__track">{{ currentTrack.name }}</div>
+                        </div>
+                        <div class="progress__duration">{{ duration }}</div>
+                      </div>
+                      <div class="progress__bar" @click="clickProgress">
+                        <div class="progress__current" :style="{ width : barWidth }"></div>
+                      </div>
+                      <div class="progress__time">{{ currentTime }}</div>
+              </div>
+
+              <svg xmlns="http://www.w3.org/2000/svg" hidden xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                      <symbol id="icon-pause" viewBox="0 0 32 32">
+                        <title>icon-pause</title>
+                        <path d="M16 0.32c-8.64 0-15.68 7.040-15.68 15.68s7.040 15.68 15.68 15.68 15.68-7.040 15.68-15.68-7.040-15.68-15.68-15.68zM16 29.216c-7.296 0-13.216-5.92-13.216-13.216s5.92-13.216 13.216-13.216 13.216 5.92 13.216 13.216-5.92 13.216-13.216 13.216z"></path>
+                        <path d="M16 32c-8.832 0-16-7.168-16-16s7.168-16 16-16 16 7.168 16 16-7.168 16-16 16zM16 0.672c-8.448 0-15.328 6.88-15.328 15.328s6.88 15.328 15.328 15.328c8.448 0 15.328-6.88 15.328-15.328s-6.88-15.328-15.328-15.328zM16 29.568c-7.488 0-13.568-6.080-13.568-13.568s6.080-13.568 13.568-13.568c7.488 0 13.568 6.080 13.568 13.568s-6.080 13.568-13.568 13.568zM16 3.104c-7.104 0-12.896 5.792-12.896 12.896s5.792 12.896 12.896 12.896c7.104 0 12.896-5.792 12.896-12.896s-5.792-12.896-12.896-12.896z"></path>
+                        <path d="M12.16 22.336v0c-0.896 0-1.6-0.704-1.6-1.6v-9.472c0-0.896 0.704-1.6 1.6-1.6v0c0.896 0 1.6 0.704 1.6 1.6v9.504c0 0.864-0.704 1.568-1.6 1.568z"></path>
+                        <path d="M19.84 22.336v0c-0.896 0-1.6-0.704-1.6-1.6v-9.472c0-0.896 0.704-1.6 1.6-1.6v0c0.896 0 1.6 0.704 1.6 1.6v9.504c0 0.864-0.704 1.568-1.6 1.568z"></path>
+                      </symbol>
+                      <symbol id="icon-play" viewBox="0 0 32 32">
+                        <title>icon-play</title>
+                        <path d="M21.216 15.168l-7.616-5.088c-0.672-0.416-1.504 0.032-1.504 0.832v10.176c0 0.8 0.896 1.248 1.504 0.832l7.616-5.088c0.576-0.416 0.576-1.248 0-1.664z"></path>
+                        <path d="M13.056 22.4c-0.224 0-0.416-0.064-0.608-0.16-0.448-0.224-0.704-0.672-0.704-1.152v-10.176c0-0.48 0.256-0.928 0.672-1.152s0.928-0.224 1.344 0.064l7.616 5.088c0.384 0.256 0.608 0.672 0.608 1.088s-0.224 0.864-0.608 1.088l-7.616 5.088c-0.192 0.16-0.448 0.224-0.704 0.224zM13.056 10.272c-0.096 0-0.224 0.032-0.32 0.064-0.224 0.128-0.352 0.32-0.352 0.576v10.176c0 0.256 0.128 0.48 0.352 0.576 0.224 0.128 0.448 0.096 0.64-0.032l7.616-5.088c0.192-0.128 0.288-0.32 0.288-0.544s-0.096-0.416-0.288-0.544l-7.584-5.088c-0.096-0.064-0.224-0.096-0.352-0.096z"></path>
+                        <path d="M16 0.32c-8.64 0-15.68 7.040-15.68 15.68s7.040 15.68 15.68 15.68 15.68-7.040 15.68-15.68-7.040-15.68-15.68-15.68zM16 29.216c-7.296 0-13.216-5.92-13.216-13.216s5.92-13.216 13.216-13.216 13.216 5.92 13.216 13.216-5.92 13.216-13.216 13.216z"></path>
+                        <path d="M16 32c-8.832 0-16-7.168-16-16s7.168-16 16-16 16 7.168 16 16-7.168 16-16 16zM16 0.672c-8.448 0-15.328 6.88-15.328 15.328s6.88 15.328 15.328 15.328c8.448 0 15.328-6.88 15.328-15.328s-6.88-15.328-15.328-15.328zM16 29.568c-7.488 0-13.568-6.080-13.568-13.568s6.080-13.568 13.568-13.568c7.488 0 13.568 6.080 13.568 13.568s-6.080 13.568-13.568 13.568zM16 3.104c-7.104 0-12.896 5.792-12.896 12.896s5.792 12.896 12.896 12.896c7.104 0 12.896-5.792 12.896-12.896s-5.792-12.896-12.896-12.896z"></path>
+                      </symbol>
+                      <symbol id="icon-next" viewBox="0 0 32 32">
+                        <title>next</title>
+                        <path d="M2.304 18.304h14.688l-4.608 4.576c-0.864 0.864-0.864 2.336 0 3.232 0.864 0.864 2.336 0.864 3.232 0l8.448-8.48c0.864-0.864 0.864-2.336 0-3.232l-8.448-8.448c-0.448-0.448-1.056-0.672-1.632-0.672s-1.184 0.224-1.632 0.672c-0.864 0.864-0.864 2.336 0 3.232l4.64 4.576h-14.688c-1.248 0-2.304 0.992-2.304 2.272s1.024 2.272 2.304 2.272z"></path>
+                        <path d="M29.696 26.752c1.248 0 2.304-1.024 2.304-2.304v-16.928c0-1.248-1.024-2.304-2.304-2.304s-2.304 1.024-2.304 2.304v16.928c0.064 1.28 1.056 2.304 2.304 2.304z"></path>
+                      </symbol>
+                      <symbol id="icon-prev" viewBox="0 0 32 32">
+                        <title>prev</title>
+                        <path d="M29.696 13.696h-14.688l4.576-4.576c0.864-0.864 0.864-2.336 0-3.232-0.864-0.864-2.336-0.864-3.232 0l-8.448 8.48c-0.864 0.864-0.864 2.336 0 3.232l8.448 8.448c0.448 0.448 1.056 0.672 1.632 0.672s1.184-0.224 1.632-0.672c0.864-0.864 0.864-2.336 0-3.232l-4.608-4.576h14.688c1.248 0 2.304-1.024 2.304-2.304s-1.024-2.24-2.304-2.24z"></path>
+                        <path d="M2.304 5.248c-1.248 0-2.304 1.024-2.304 2.304v16.928c0 1.248 1.024 2.304 2.304 2.304s2.304-1.024 2.304-2.304v-16.928c-0.064-1.28-1.056-2.304-2.304-2.304z"></path>
+                      </symbol>
+                    </defs>
+            </div>
+      <!-------------------------------------Clock------------------------------------->
+        <div id="MyClockDisplay" onload="showTime()"></div>
+    </div>
+  <!-------------------------------------Calendar------------------------------------->
+    <div class="calendar disable-selection" id="calendar">
+        <div class="left-side">
+            <div class="current-day text-center">
+                <h1 class="calendar-left-side-day"></h1>
+                <div class="calendar-left-side-day-of-week"></div>
+            </div>
+            <div class="current-day-events">
+                <div>Current Events:</div>
+                <ul class="current-day-events-list"></ul>
+            </div>
+            <div class="add-event-day">
+                <input type="text" class="add-event-day-field" placeholder="Create an Event">
+                <span class="fa fa-plus-circle cursor-pointer add-event-day-field-btn"></span>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="text-right calendar-change-year">
+                <div class="calendar-change-year-slider">
+                    <span class="fa fa-caret-left cursor-pointer calendar-change-year-slider-prev"></span>
+                    <span class="calendar-current-year"></span>
+                    <span class="fa fa-caret-right cursor-pointer calendar-change-year-slider-next"></span>
+                </div>
+            </div>
+            <div class="calendar-month-list">
+                <ul class="calendar-month"></ul>
+            </div>
+            <div class="calendar-week-list">
+                <ul class="calendar-week"></ul>
+            </div>
+            <div class="calendar-day-list">
+                <ul class="calendar-days"></ul>
+            </div>
+        </div>
+    </div>
+  <!-----------------------------Scripts------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+    <script src="javascript/dark-mode.js"></script>
+    <script src="javascript/calendar.js"></script>
+    <script src="../../javascript/search-slide.js"></script>
+    <script src="../../javascript/clock.js"></script>
+    <script src="https://king-pacaya.github.io/doc-storage/javascript/up-bussiness/music.js"></script>
+</body>
+</html>

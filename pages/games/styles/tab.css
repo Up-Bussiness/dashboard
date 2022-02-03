@@ -1,0 +1,61 @@
+/*Tittle*/
+.dides
+{
+position: absolute;
+top: 0;
+left: 0;
+height: 25%;
+width: 100%;
+}
+.tides
+{
+position: relative;
+width: 100%;
+font-family: 'DM Sans', sans-serif;
+text-align: center;
+font-size: 35px;
+padding: 1vh 0 1vh 0;
+height: 8vh;
+}
+/* Style tab links */
+.tablink
+{
+position: relative;
+bottom: 0;
+font-family: 'DM Sans', sans-serif;
+font-size: 25px;
+height: 5vh;
+float: left;
+cursor: pointer;
+width: calc(100%/4);
+background: transparent;
+overflow: hidden;
+color: #1B6CD2;
+border: solid #1B6CD2 2px;
+}
+.tabcontent
+{
+position: absolute;
+bottom: 0;
+top: 25%;
+margin: 0;
+width: 100%;
+height: auto;
+overflow: auto;
+}
+.tabcontent iframe
+{
+position: absolute;
+top: 0;
+margin: -10vh 0 0 0;
+width: 100%;
+height: calc(100% + 10vh);
+border: none;
+}
+@media screen and (max-width: 700px)
+{
+.tablink
+{
+width: calc(100%/3);
+}
+}

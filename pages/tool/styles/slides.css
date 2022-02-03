@@ -1,0 +1,83 @@
+/***********************************Slide Container***********************************/
+#slidesigncont.day
+{
+position: fixed;
+top: 15vh;
+right: 2vw;
+height: 80vh;
+width: 83vw;
+border-radius: 15px;
+background: #FFFFFF;
+box-shadow: 0vw 1vh 15px rgba(0, 0, 0, 0.6);
+overflow: auto;
+z-index: 1;
+}
+#slidesigncont.night
+{
+position: fixed;
+top: 15vh;
+right: 2vw;
+height: 80vh;
+width: 83vw;
+border-radius: 15px;
+background: #122934;
+box-shadow: 0vw 1vh 15px rgba(0, 0, 0, 0.6);
+overflow: auto;
+z-index: 1;
+}
+#slidesigncont::-webkit-scrollbar
+{
+width: 10px;
+background: transparent;
+}
+#slidesigncont::-webkit-scrollbar-thumb
+{
+background: rgba(6, 27, 33, 0.85);
+border-radius: 25px;
+border: solid white 2px;
+}
+/*************************************Next & Prev*************************************/
+#prevd, #nextd
+{
+position: absolute;
+cursor: pointer;
+top: 2vh;
+font-size: 20px;
+z-index: 1;
+}
+#nextd
+{
+right: 1.5vw;
+}
+#prevd
+{
+left: 1.5vw;
+}
+.dides
+{
+position: relative;
+height: 13vh;
+width: 100%;
+}
+.tides
+{
+position: relative;
+font-family: 'DM Sans', sans-serif;
+text-align: center;
+font-size: 35px;
+padding: 1vh 0 1vh 0;
+height: 8vh;
+}
+@media screen and (max-width: 900px)
+{
+	#slidesigncont.day, #slidesigncont.night
+	{
+	position: relative;
+	left: inherit;
+	left: 5%;
+	top: 15vh;
+	width: 90%;
+	height: 80vh;
+	margin: 0 0 40vh 0;
+	}
+}

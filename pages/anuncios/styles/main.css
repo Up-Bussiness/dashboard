@@ -1,0 +1,46 @@
+#main.day
+{
+position: absolute;
+top: 15vh;
+right: 2vw;
+width: 82vw;
+height: 80vh;
+background-color: white;
+border-radius: 25px;
+box-shadow: 0vw 1vh 15px rgb(0 0 0 / 60%);
+overflow: hidden;
+}
+#main.night
+{
+position: absolute;
+top: 15vh;
+right: 2vw;
+width: 82vw;
+height: 80vh;
+background-color: #092933;
+border-radius: 25px;
+box-shadow: 0vw 1vh 15px rgb(0 0 0 / 60%);
+overflow: hidden;
+}
+iframe
+{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+border: none;
+}
+@media screen and (max-width: 900px)
+{
+	#main.day, #main.night
+	{
+	position: relative;
+	left: inherit;
+	left: 5%;
+	top: 15vh;
+	width: 90%;
+	height: 100vh;
+	margin: 0 0 40vh 0;
+	}
+}
